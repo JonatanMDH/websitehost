@@ -1,18 +1,83 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="aroZBNiPhZK4X4VhWTMv">
-    <mxGraphModel dx="712" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1091" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5YAfd0pKzl93ZgSR64Xi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5YAfd0pKzl93ZgSR64Xi-1" target="5YAfd0pKzl93ZgSR64Xi-2">
+        <mxCell id="kVEUL0nJfD8cS307NhmW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-2" target="kVEUL0nJfD8cS307NhmW-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5YAfd0pKzl93ZgSR64Xi-1" value="def BiotopeCalc:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
+        <mxCell id="kVEUL0nJfD8cS307NhmW-2" value="Input Parameters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="930" y="359" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5YAfd0pKzl93ZgSR64Xi-2" value="getMillDSM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="kVEUL0nJfD8cS307NhmW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-4" target="kVEUL0nJfD8cS307NhmW-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-4" value="Get DSM Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1351" y="329" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-6" target="kVEUL0nJfD8cS307NhmW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-6" value="Get DTM Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="329" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-7" value="Fill DTM Gaps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="419" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-8" value="Plot DTM Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="479" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-9" value="Biotope Calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="539" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-10" value="Biotope Plotting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="599" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-11" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-7" target="kVEUL0nJfD8cS307NhmW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-12" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-8" target="kVEUL0nJfD8cS307NhmW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-13" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-9" target="kVEUL0nJfD8cS307NhmW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-15" target="kVEUL0nJfD8cS307NhmW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Latitude&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Latitude of the mill in RD-new&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-17" target="kVEUL0nJfD8cS307NhmW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-17" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Longitude&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Longitude of the mill in RD-new&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="830" y="203" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-19" target="kVEUL0nJfD8cS307NhmW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-19" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 20px;&quot;&gt;Diameter&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Diameters of the wings in meters&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="203" width="130" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-21" target="kVEUL0nJfD8cS307NhmW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-21" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 20px;&quot;&gt;Roughness&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Roughness value based on the terrain surrounding the mill. Can be 140 (smooth), 75 (inermediate), 50 (rough)&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="203" width="200" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-24" target="kVEUL0nJfD8cS307NhmW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEUL0nJfD8cS307NhmW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kVEUL0nJfD8cS307NhmW-24" target="kVEUL0nJfD8cS307NhmW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Actueel Hoogtebestand Nederland" id="kVEUL0nJfD8cS307NhmW-24">
+          <mxCell style="text;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=center;verticalAlign=middle;" vertex="1" parent="1">
+            <mxGeometry x="1410" y="220" width="100" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
